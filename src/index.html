@@ -4,18 +4,92 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+
+    <div class="header" >
+      <h1>Rosa María Cifuentes Castañeda</h1>
+      <p>Lee Más.com</p>
+      
+    </div>
   </head>
   <body>
-    <div class="container">
-      <div class="card-container">
-        <div class="front">
-        </div>
-      </div>
+    <div class="caja-principal" id="div1">
 
+      <div class="contenedor-general" >
+          <div class="imagen"><img src="Imagenes/imagen1.jpg" alt="">
+            <span>S/. 79.90</span>
+          </div>
+            <div class="texto">
+              <h1>La magia de tu Casa</h1>
+              <p>Tus ambientes son el reflejo de tus emociones, personalidad y actitud ante la vida. 
+              Libro que combina tres disciplinas para poder sanar, armonizar tus ambientes y mejorar 
+              la salud física y emocional, y activar la motivación necesaria para alcanzar prosperidad.</p>
+              <br>
+              <a href="#div2" id="comprar">Comprar Libro</a>
+            </div>  
+      </div>
+    
+      <div class="contenedor-general" >
+        <div class="imagen"><img src="Imagenes/imagen2.jpg" alt="">
+          <span>S/. 69.90</span>
+        </div>
+          <div class="texto">
+            <h1>Jaque mate al amor</h1>
+            <p>Libro que aborda los 30 tipos de peleas en pareja.Estas son historias reales, 
+              quienes deseen mirarse con humildad, podrán, además, encontrarán una 
+              guía emocional sobre cómo reﬂotar su relación afectiva si es que 
+              existe amor real en la pareja.</p>
+            <br>
+            <a href="#div2" id="comprar">Comprar Libro</a>
+          </div>  
+      </div>
+    
+      <div class="contenedor-general" >
+        <div class="imagen"><img src="Imagenes/imagen3.jpg" alt="">
+          <span>S/. 69.90</span>
+        </div>
+          <div class="texto">
+            <h1>Libre del Miedo</h1>
+            <p>Libre del miedo es un libro que pretende llegar de manera profunda a mis seguidores
+               y a quienes puedan acceder a él con la intención de ayudarlos a vencer y a convivir 
+               con algún tipo de miedo que los aqueja. 
+              </p>
+            <br>
+            <a href="#div2" id="comprar">Comprar Libro</a>
+          </div>  
+      </div>
+    
+      <div class="contenedor-general" >
+        <div class="imagen"><img src="Imagenes/imagen4.jpg" alt="">
+          <span>S/. 54.90</span>
+        </div>
+          <div class="texto">
+            <h1>La magia de tu nombre</h1>
+            <p>Es un aporte para todos aquellos que desean conocerse, comprender a sus semejantes
+               y tener claridad acerca de los potenciales e influencias que traen consigo a través del nombre.</p>
+            <br>
+            <a href="#div2" id="comprar">Comprar Libro</a>
+          </div>  
+      </div>
+   
+    
+    <div class="texto-lateral">
+      <div class="foto"><img src="Imagenes/rosamaria.jpg" alt=""></div>
+        <p>Magister en Periodismo y Coach Ontológico, Catedrática Universtaria en USMP y , actualmente, en ISIL. 
+          Ha sido asesora de comunicaciones en instituciones del Estado vinculadas a los rubros de educación, salud y cultura. 
+          Dirige la empresa Resurge con la que brinda asesorías de coach empresarial en el Perú y en países 
+          como Colombia, Chile, Bolivia y Uruguay. Como coach terapéutico realiza terapias para el manejo 
+          de emociones y el autoconocimiento. Es especialista en MianXiang (Lectura de Rostro Oriental), morfopsicología, 
+          comunicación no verbal y grafología.</p>
+    </div>
+  </div>
+
+
+    <div class="container" id="div2"> 
     <form action="">
+      <div class="pago">PAGO CON TARJETA</div>
       <div class="inputBox">
-        <span>card number</span>
-        <input type="text" maxlength="16" class="card-number-input" id="creditCardNumber" placeholder="0000 0000 0000 0000">
+        <span>Número de tarjeta</span>
+        <input type="text" maxlength="16" class="card-number-input" id="creditCardNumber" placeholder="0000 0000 0000 0000" >
       </div>
 
       <div class="text">
@@ -24,14 +98,14 @@
       </div>
 
       <div class="inputBox">
-        <span>Name holder</span>
-        <input type="text" maxlength="16" class="card-number-input">
+        <span>Nombres y Apellidos</span>
+        <input type="text" maxlength="16" class="card-number-input" id="name" placeholder="Ingresa tu Nombre">
       </div>
       <div class="flexbox">
         <div class="inputBox"> 
-          <span>expiration mm</span>
+          <span>Expiración Mes</span>
           <select name="" id="" class="month-input">
-            <option value="month" select disable>month</option>
+            <option value="month" select disable>Mes</option>
             <option value="01">01</option>
             <option value="02">02</option>
             <option value="03">03</option>
@@ -47,9 +121,9 @@
           </select>
         </div>
         <div class="inputBox"> 
-        <span>expiration yy</span>
+        <span>Espiración Año</span>
           <select name="" id="" class="year-input">
-            <option value="year" select disable>year</option>
+            <option value="year" select disable>Año</option>
             <option value="2021">2021</option>
             <option value="2022">2022</option>
             <option value="2023">2023</option>
@@ -63,19 +137,31 @@
           </select>
         </div>
         <div class="inputBox">
-          <span>cvv</span>
-          <input type="text" maxlength="4" class="cvv-input">
+          <span>CVV</span>
+          <input type="text" maxlength="4" class="cvv-input" id=" numberCvv" placeholder="000">
         </div>
       </div>
       <div>
-      <input type="button" value="Enviar" id="button" class="enviarBtn" >
+      <input type="button" value="Confirmar Pago" id="button" class="enviarBtn" >
     </div>
     </form>
-  
   </div>
-      
+   
 
-    <footer></footer>
+    <footer>
+      <div class="footer">
+        <span>Siguenos en:</span>
+      <ul>
+        <li>
+        <img class="iconos-redes" src="Imagenes/logo instagram.png" alt="Instagram">
+        <img class="iconos-redes" src="Imagenes/logo facebook.png" alt="Facebook">
+        <img class="iconos-redes" src="Imagenes/logo twitter.png" alt="Twiter">
+        </li>
+      </ul>
+    </div>
+        
+      
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

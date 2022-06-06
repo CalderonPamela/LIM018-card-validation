@@ -6,7 +6,143 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: uppercase;
+}
+
+.header{
+    position: absolute;
+    width: 1520px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: rgba(228, 100, 239, 0.85);  
+}
+
+.header h1{
+    position: absolute;
+    width: 505px;
+    height: 45px;
+    top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.header p{
+    position: absolute;
+    width: 351px;
+    height: 45px;
+    left: 1300px;
+    top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+
+.caja-principal{
+    padding: 100px 40px;
+    justify-content: right;
+   /* border: solid;*/
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor-general{
+    width: 80%;
+    max-width: 550px;
+    padding: 50px 20px;
+    display: flex;
+    align-items:center;
+}
+.texto{
+    width: 320px;
+    height: 250px;
+    border-color: #95ACE6;
+    padding: 15px;
+    border-radius: 20px;
+    background: #95ACE6;  
+    text-align: left; 
+}
+
+h1{
+    font-size: x-large;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.imagen {
+   flex-shrink:0;
+   width: 140px;
+}
+
+.imagen img{
+    width: 100%;
+    padding-right: 10px;
+ }
+
+.imagen span{
+    font-size: 25px;
+}
+
+a{
+    padding: 10px;
+    background: rgba(228, 100, 239, 0.85);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color:#fff; 
+    text-decoration: none; 
+   
+}
+a:hover{
+    opacity: 0.6;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+
+.texto-lateral{
+    position: absolute;
+    width: 250px;
+    height: 780px;
+    left: 0px;
+    top: 70px;
+    background: #95ACE6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto-lateral .foto img{
+   
+    position: absolute;
+    width: 210px;
+    height: 230px;
+    left: 20px;
+    top: 40px;
+    padding-left: 10px 10px;
+    background-image: url(Imagenes/rosamaria.jpg);
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.texto-lateral p{
+    position: absolute;
+    width: 200px;
+    height: 460px;
+    top: 300px;
+    padding-left: 30px;
+    margin-bottom: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-transform: capitalize;
+
 }
 
 .container{
@@ -16,24 +152,30 @@
     align-items: center;
     justify-content: center;
     flex-flow: column;
-    padding-bottom: 60px;
+    padding: 70px;
+    border: solid;
 }
 
 .container form{
-    background: #fff;
+    background:  #B3C8FF;
+    border: 2px solid #668cec;
     border-radius: 30px;
-    box-shadow: 0 10px 15px rgba(0,0,0,.1);
-    padding: 20px;
-    width: 650px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.7);
+    padding: 70px 20px 20px 30px;
+    width: 450px;
     height: 780;
 }
 
+.pago{
+    text-align: center;
+    font-size: x-large;
+}
 .container form .inputBox{
     margin-top: 20px;
 }
 .container form .inputBox span{
     display: block;
-    color: #999;
+    color: black;
     padding-bottom: 5px;
 }
 
@@ -42,7 +184,7 @@
     width: 100%;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid rgb(0,0,0,.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     color: #444;
 }
 
@@ -56,6 +198,7 @@
 .container form .enviarBtn{
     width: 100%;
     background: rgb(203, 134, 228);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
     padding: 10px;
     font-size: 20px;
@@ -63,10 +206,45 @@
     border-radius: 10px;
     cursor: pointer;
     transition: .2s linear;
+    
+    
+    
 }
 
 .container form .enviarBtn:hover{
     letter-spacing: 2px;
     opacity: .8;
 }
+
+.footer{
+    position: absolute;
+    width: 1520px;
+    height: 70px;
+    left: 0px;
+    top: 850px;
+    background: rgba(228, 100, 239, 0.85);
+    
+}
+
+.footer span{
+    float:right;
+    padding-right: 50px; 
+    
+}
+.iconos-redes{
+	width:35px;
+	height:35px;
+	margin:25px 5px;
+    color: #fff;
+    float:right;   
+}
+
+#div2{
+    display:none
+}
+
+
+
+
+
 
