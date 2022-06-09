@@ -7,11 +7,11 @@
  
  Proyecto final.
 
-[imagen final del proyecto](Imagenes/proyecto1.jpg)
-[imagen final del proyecto](Imagenes/proyecto2.jpg)
-[imagen final del proyecto](Imagenes/proyecto3.jpg)
-[imagen final del proyecto](Imagenes/proyecto4.jpg)
-[imagen final del proyecto](Imagenes/proyecto5.jpg)
+[imagen final del proyecto]<img src="Imagenes/proyecto1.jpg">
+[imagen final del proyecto]<img src="Imagenes/proyecto2.jpg">
+[imagen final del proyecto]<img src="Imagenes/proyecto3.jpg">
+[imagen final del proyecto]<img src="Imagenes/proyecto4.jpg">
+[imagen final del proyecto]<img src="Imagenes/proyecto5.jpg">
 
 Investigacion UX:
 
@@ -29,19 +29,19 @@ Investigacion UX:
   Contiene 2 secciones cada sección comprende de:
 
   seccion 1: contiene la siguiente estructura.
-      1. La imagen del libro
-      2. Precio del libro
-      3. Breve descripción del libro
-      4. Botón de "COMPRAR LIBRO"
+  1. La imagen del libro
+  2. Precio del libro
+  3. Breve descripción del libro
+  4. Botón de "COMPRAR LIBRO"
 
 
-  seccion 2: contiene el formulario de pago compuesto de:
-      1. Numero de tarjeta, 
-      2. Nombre de usuario
-      3. Fecha de vencimiento
-      4. CVV
-      5. Botón de "validar"
-      6. Botón de "Confirmar pago"
+  Seccion 2: contiene el formulario de pago compuesto de:
+  1. Numero de tarjeta, 
+  2. Nombre de usuario
+  3. Fecha de vencimiento
+  4. CVV
+  5. Botón de "validar"
+  6. Botón de "Confirmar pago"
 
   Ventana de aviso de confirmación de pago:
   Comprende un mensaje avisando al usuario que el pago se ha efectuado de manera correcta y un boton para seguir comprando.
@@ -56,8 +56,8 @@ Investigacion UX:
 
   El prototipo del proyecto se realizo en figma y estas son las imagenes:
 
-  [imagen final del proyecto](Imagenes/figma1.jpg)
-  [imagen final del proyecto](Imagenes/figma2.jpg)
+  [imagen final del proyecto]<img src="Imagenes/figma1.jpg">
+  [imagen final del proyecto]<img src="Imagenes/figma2.jpg">
 
 
 
