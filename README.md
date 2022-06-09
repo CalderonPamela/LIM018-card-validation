@@ -6,12 +6,11 @@
  caso un aficionado a la lectura, realizar la comprar de libros con tarjeta de credito.
  
  Proyecto final.
-
-![proyecto1](https://user-images.githubusercontent.com/105663863/172774189-22c60861-0225-41b0-b6a4-72f722bde2c4.jpg)
-![proyecto2](https://user-images.githubusercontent.com/105663863/172774219-1ba5e0a4-6f25-40cb-9912-c9e38fd4b3e6.jpg)
-![proyecto3](https://user-images.githubusercontent.com/105663863/172774226-1449208d-9163-45ea-88f7-fd4c5f859964.jpg)
-![proyecto4](https://user-images.githubusercontent.com/105663863/172774240-534d08c5-6946-413c-a84d-43a89eec36c4.jpg)
-![proyecto5](https://user-images.githubusercontent.com/105663863/172774002-a611132e-3558-4404-bcc1-15fb595f006c.jpg)
+![proyecto1](https://user-images.githubusercontent.com/105663863/172776429-c79195a2-3aeb-4d0d-9adb-e60eaf73fb9c.jpg)
+![proyecto2](https://user-images.githubusercontent.com/105663863/172776451-d47a14c7-e123-4af2-a471-e2eb14f0ecb3.jpg)
+![proyecto3](https://user-images.githubusercontent.com/105663863/172776470-65ec849f-573b-40f1-bd7b-191d7b4bd3a3.jpg)
+![proyecto4](https://user-images.githubusercontent.com/105663863/172776483-bee13fdb-dd68-4543-a13a-d911b007fcd7.jpg)
+![proyecto5](https://user-images.githubusercontent.com/105663863/172776505-bfc204b5-92d0-46d7-804d-1fdedff2e35f.jpg)
 
 Investigacion UX:
 
