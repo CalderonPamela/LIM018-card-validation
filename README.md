@@ -1,6 +1,6 @@
 
 
-                       CREDIT CARD VALIDATION
+                                                          CREDIT CARD VALIDATION
 
  Este proyecto consiste en una aplicación web que le permite al usuario en este 
  caso un aficionado a la lectura, realizar la comprar de libros con tarjeta de credito.
