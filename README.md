@@ -1,93 +1,63 @@
-Debe contener lo siguiente:
 
 
+                       CREDIT CARD VALIDATION
 
-CREDIT CARD VALIDATION
+ Este proyecto consiste en una aplicación web que le permite al usuario en este 
+ caso un aficionado a la lectura, realizar la comprar de libros con tarjeta de credito.
+ 
+ Proyecto final.
 
-El proyecto consiste en la validacion del pago con tarjeta de credito para la compra de un libro.
-
-La imagen final de tu proyecto.
-
+[imagen final del proyecto](Imagenes/proyecto1.jpg)
+[imagen final del proyecto](Imagenes/proyecto2.jpg)
+[imagen final del proyecto](Imagenes/proyecto3.jpg)
+[imagen final del proyecto](Imagenes/proyecto4.jpg)
+[imagen final del proyecto](Imagenes/proyecto5.jpg)
 
 Investigacion UX:
-COMO: Aficionado a la lectura
-QUIERO: Realizar la compra del libro con tarjeta de crédito
-PARA: Ahorrar tiempo
+
+            COMO: Aficionado a la lectura
+            QUIERO: Realizar la compra del libro con tarjeta de crédito
+            PARA: Ahorrar tiempo
 
 
+ CRITERIOS DE ACEPTACIÓN
+
+  Encabezado
+  Contiene el nombre de la pagina y de la escritora.
+
+  Cuerpo
+  Contiene 2 secciones cada sección comprende de:
+
+  seccion 1: contiene la siguiente estructura.
+      1. La imagen del libro
+      2. Precio del libro
+      3. Breve descripción del libro
+      4. Botón de "COMPRAR LIBRO"
 
 
-CRITERIOS DE ACEPTACIÓN
-PAGINA PRINCIPAL - Frame 1
--Encabezado
-Contiene el nombre de la pagina y de la escritora
+  seccion 2: contiene el formulario de pago compuesto de:
+      1. Numero de tarjeta, 
+      2. Nombre de usuario
+      3. Fecha de vencimiento
+      4. CVV
+      5. Botón de "validar"
+      6. Botón de "Confirmar pago"
 
-Cuerpo
-Contiene 4 secciones. cada sección comprende de:
+  Ventana de aviso de confirmación de pago:
+  Comprende un mensaje avisando al usuario que el pago se ha efectuado de manera correcta y un boton para seguir comprando.
 
- 1. La imagen del libro
- 2. Precio del libro
- 3. Breve descripción del libro
- 4. Botón de "COMPRAR LIBRO"
-Footer
-Agregar los iconos de las redes sociales
-
-Formulario de pago
-- Formulario compuesto de cuatro entradas:
-
-   1. Numero de tarjeta, 
-   2. Nombre de usuario
-   3. Fecha de vencimiento
-   4. CVV
-Permitir ingresar datos
-Validar el n{umero de tarjeta de usuario
-Mensaje indicando si el numero es valido o no
-No permitir que el campo se envié vació
-Crear un botón de envió de datos con la palabra "CONFIRMAR PAGO"
-crear un frame de proceso de ejecución del pago
-Crear un frame de proceso terminado del pago avisándole al usuario
-En el ultimo frame poner un botón con la palabra " SEGUIR COMPRANDO"
+  Footer
+  Contiene los iconos de las redes sociales
 
 
-
-Luego colocarás la foto de tu primer prototipo en papel.
-
-
-Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-Imagen del prototipo final.
+  El proyecto tiene como objetivo validar el número de la tarjeta de credito del usuario para poder efectuar su comprar satisfactoriamente.
+  Para ello cuando el usuario inserta el numero de la tarjeta de credito se indica si es valido o invalido el número. Tambien se oculta el numero dejando en visto los ultimos 4 digitos.
 
 
+  El prototipo del proyecto se realizo en figma y estas son las imagenes:
 
-
-
-
-Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-La imagen final de tu proyecto.
-Investigación UX:
-Explicar quiénes son los usuarios y los objetivos en relación con el producto.
-Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
-Luego colocarás la foto de tu primer prototipo en papel.
-Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-Imagen del prototipo final.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  [imagen final del proyecto](Imagenes/figma1.jpg)
+  [imagen final del proyecto](Imagenes/figma2.jpg)
 
 
 

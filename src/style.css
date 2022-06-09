@@ -3,71 +3,61 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
     border: none;
-    text-decoration: none;
 }
 
 .header{
     position: absolute;
     width: 1520px;
-    height: 70px;
-    left: 0px;
-    top: 0px;
-    background: rgba(228, 100, 239, 0.85);  
-}
+    min-height: 70px;
+    background: rgba(228, 100, 239, 0.85);   
+    text-align: center;  
+    align-items: center; 
+}   
+
 
 .header h1{
     position: absolute;
-    width: 505px;
-    height: 45px;
     top: 20px;
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 25px;
     color: #FFFFFF;
+    margin-left: 20px;
 }
 
 .header p{
     position: absolute;
-    width: 351px;
-    height: 45px;
     left: 1300px;
     top: 20px;
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 32px;
-    line-height: 39px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
 }
 
 .caja-principal{
-    padding: 100px 40px;
-    justify-content: right;
-   /* border: solid;*/
-    margin: 10px;
+    padding: 70px;
+    margin-left:250px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    
 }
 .contenedor-general{
     width: 80%;
-    max-width: 550px;
-    padding: 50px 20px;
+    width:550px;
+    padding: 40px 60px;
     display: flex;
-    align-items:center;
+    align-items: center;
 }
 .texto{
-    width: 320px;
+    width: 600px;
     height: 250px;
     border-color: #95ACE6;
     padding: 15px;
     border-radius: 20px;
     background: #95ACE6;  
     text-align: left; 
+    font-size: 14px;
 }
 
 h1{
@@ -108,7 +98,7 @@ a:hover{
 .texto-lateral{
     position: absolute;
     width: 250px;
-    height: 780px;
+    height: 700px;
     left: 0px;
     top: 70px;
     background: #95ACE6;
@@ -142,18 +132,12 @@ a:hover{
     line-height: 18px;
     color: #000000;
     text-transform: capitalize;
-
 }
 
 .container{
-    min-height: 100vh;
-    background: #eee;
+    
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    padding: 70px;
-    border: solid;
+    padding: 10px;  
 }
 
 .container form{
@@ -161,41 +145,45 @@ a:hover{
     border: 2px solid #668cec;
     border-radius: 30px;
     box-shadow: 0 4px 4px rgba(0,0,0,.7);
-    padding: 70px 20px 20px 30px;
+    margin: 20vh auto 0 auto;
+    padding: 20px 20px 20px 30px;
     width: 450px;
-    height: 780;
 }
 
 .pago{
     text-align: center;
     font-size: x-large;
 }
-.container form .inputBox{
+.input-control{
     margin-top: 20px;
 }
-.container form .inputBox span{
+.input-control span{
     display: block;
     color: black;
     padding-bottom: 5px;
+    text-align: left;
 }
 
-.container form .inputBox input,
-.container form .inputBox select{
+.input-control input,
+.input-control select{
     width: 100%;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     color: #444;
+    display:block;
 }
 
 .container form .flexbox{
     display: flex;
     gap: 15px;
 }
-.container form .flexbox .inputBox{
+
+.flexbox .input-control{
     flex: 1 1 150px;
 }
-.container form .enviarBtn{
+
+.enviarBtn{
     width: 100%;
     background: rgb(203, 134, 228);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
@@ -205,44 +193,113 @@ a:hover{
     color: #fff;
     border-radius: 10px;
     cursor: pointer;
-    transition: .2s linear;
-    
-    
-    
+    transition: .2s linear;   
 }
-
-.container form .enviarBtn:hover{
+.enviarBtn:hover{
     letter-spacing: 2px;
     opacity: .8;
+}
+
+.text{
+    text-align: center;
+    padding-top: 10px;
+    color: #df2117;
 }
 
 .footer{
     position: absolute;
     width: 1520px;
-    height: 70px;
-    left: 0px;
-    top: 850px;
-    background: rgba(228, 100, 239, 0.85);
-    
+    min-height: 90px;
+    top: 770px;
+    background: rgba(228, 100, 239, 0.85);   
+    text-align: center;  
+    align-items: center; 
 }
 
-.footer span{
-    float:right;
-    padding-right: 50px; 
-    
-}
 .iconos-redes{
 	width:35px;
 	height:35px;
-	margin:25px 5px;
-    color: #fff;
-    float:right;   
+	margin:10px;    
 }
 
 #div2{
-    display:none
+    display:none;  
+    text-align: center;
 }
 
+.btnModal{
+    background: rgb(203, 134, 228);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    width : 500px;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;  
+    
+}
+.btnModal:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.modalContainer {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modalContainer .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid lightgray;
+    border-top: 20px solid rgb(203, 134, 228);
+    width: 40%;
+    height: 50%; 
+}
+
+.modalContainer .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold; 
+}
+
+.modalContainer .close:hover,
+.modalContainer .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btnSeguir{
+    background: rgb(203, 134, 228);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;   
+}
+
+.btnSeguir:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
 
 
 
