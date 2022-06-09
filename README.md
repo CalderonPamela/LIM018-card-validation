@@ -7,12 +7,11 @@
  
  Proyecto final.
 
-[imagen final del proyecto]<img src="Imagenes/proyecto1.jpg">![proyecto5](https://user-images.githubusercontent.com/105663863/172774002-a611132e-3558-4404-bcc1-15fb595f006c.jpg)
-
-[imagen final del proyecto]<img src="Imagenes/proyecto2.jpg">
-[imagen final del proyecto]<img src="Imagenes/proyecto3.jpg">
-[imagen final del proyecto]<img src="Imagenes/proyecto4.jpg">
-[imagen final del proyecto]<img src="Imagenes/proyecto5.jpg">
+![proyecto1](https://user-images.githubusercontent.com/105663863/172774189-22c60861-0225-41b0-b6a4-72f722bde2c4.jpg)
+![proyecto2](https://user-images.githubusercontent.com/105663863/172774219-1ba5e0a4-6f25-40cb-9912-c9e38fd4b3e6.jpg)
+![proyecto3](https://user-images.githubusercontent.com/105663863/172774226-1449208d-9163-45ea-88f7-fd4c5f859964.jpg)
+![proyecto4](https://user-images.githubusercontent.com/105663863/172774240-534d08c5-6946-413c-a84d-43a89eec36c4.jpg)
+![proyecto5](https://user-images.githubusercontent.com/105663863/172774002-a611132e-3558-4404-bcc1-15fb595f006c.jpg)
 
 Investigacion UX:
 
@@ -57,8 +56,9 @@ Investigacion UX:
 
   El prototipo del proyecto se realizo en figma y estas son las imagenes:
 
-  [imagen final del proyecto]<img src="Imagenes/figma1.jpg">
-  [imagen final del proyecto]<img src="Imagenes/figma2.jpg">
+ ![figma1](https://user-images.githubusercontent.com/105663863/172774311-8d167f68-cda4-4fcc-93a7-d0b1cbbe41cf.jpg)
+ ![figma2](https://user-images.githubusercontent.com/105663863/172774340-9bfd9d37-c787-42bf-995a-722062b99318.jpg)
+
 
 
 
