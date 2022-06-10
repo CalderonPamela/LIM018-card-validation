@@ -44,7 +44,7 @@ Investigacion UX:
   6. Botón de "Confirmar pago"
 
   Ventana de aviso de confirmación de pago:
-  Comprende un mensaje avisando al usuario que el pago se ha efectuado de manera correcta y un boton para seguir comprando.
+  Comprende un mensaje avisando al usuario que el pago se ha efectuado de manera correcta.
 
   Footer
   Contiene los iconos de las redes sociales
