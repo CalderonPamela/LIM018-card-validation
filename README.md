@@ -10,8 +10,9 @@
 ![proyecto1](https://user-images.githubusercontent.com/105663863/172777835-9de6f89b-0507-4841-857f-faaded9a4d63.jpg)
 ![proyecto2](https://user-images.githubusercontent.com/105663863/172777851-bcb5229f-197a-48f2-9d67-c0cde2fe8317.jpg)
 ![proyecto3](https://user-images.githubusercontent.com/105663863/172777867-dab7c4ab-e3c1-4203-a0aa-72e7a4d74128.jpg)
-![proyecto4](https://user-images.githubusercontent.com/105663863/172777880-0add5814-a1c3-4e7d-a6b4-b1f3cee651b5.jpg)
-![proyecto5](https://user-images.githubusercontent.com/105663863/172777900-017ce8d9-81c6-439c-9803-0089ce603e97.jpg)
+![proyecto4](https://user-images.githubusercontent.com/105663863/172981319-52187919-36c5-4a4b-b9cd-0bfafe095d7b.jpg)
+![proyecto5](https://user-images.githubusercontent.com/105663863/172981331-d70ac9ae-391c-4e81-a37b-f18c87a9900b.jpg)
+
 
 Investigacion UX:
 
