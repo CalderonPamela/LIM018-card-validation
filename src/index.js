@@ -2,11 +2,13 @@
 //Simport { styleDisabled } from 'htmlhint';
 import validator from './validator.js';
 
-
-let creditCardNumber=document.getElementById('creditCardNumber');
-let ccValidator=document.getElementById('ccValidator');
-let enviarBtn=document.getElementById('button');
-let comprar=document.getElementById('comprar');
+let creditCardNumber=document.getElementById("creditCardNumber");
+let ccValidator=document.getElementById("ccValidator");
+let enviarBtn=document.getElementById("button");
+let comprarA=document.getElementById("comprarA");
+let comprarB=document.getElementById("comprarB");
+let comprarC=document.getElementById("comprarC");
+let comprarD=document.getElementById("comprarD");
 
 enviarBtn.addEventListener('click', ()=>{
   let message=document.getElementById("message");
@@ -22,11 +24,24 @@ enviarBtn.addEventListener('click', ()=>{
     }
 
  let nMaskify = validator.maskify(creditCardNumber.value);
- ccValidator.innerText = " " + nMaskify + " " +  message;
+ ccValidator.innerText = " " + nMaskify + " " +  message
 
 });
  
-comprar.addEventListener('click', ()=>{
+
+comprarA.addEventListener("click", ()=>{
+  document.getElementById("div1").style.display = "none";
+  document.getElementById("div2").style.display = "block";
+})
+comprarB.addEventListener("click", ()=>{
+  document.getElementById("div1").style.display = "none";
+  document.getElementById("div2").style.display = "block";
+})
+comprarC.addEventListener("click", ()=>{
+  document.getElementById("div1").style.display = "none";
+  document.getElementById("div2").style.display = "block";
+})
+comprarD.addEventListener("click", ()=>{
   document.getElementById("div1").style.display = "none";
   document.getElementById("div2").style.display = "block";
 
@@ -66,8 +81,3 @@ if(document.getElementById("btnModal")){
   }
 }
 
-let btnSeguir=document.getElementById('btnSeguir');
-btnSeguir.addEventListener('click', ()=>{
-  document.getElementById("div1").style.display = "block";
-  document.getElementById("div2").style.display = "none";
-})

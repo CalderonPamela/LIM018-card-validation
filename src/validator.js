@@ -2,8 +2,8 @@ const validator = {
   // ...
 isValid: function(creditCardNumber){
   const array=creditCardNumber.split('').reverse();
-
   const newarray=[]
+  
   for(var i=0;i<array.length;i++){
     if(i%2!=0){
       var multiplication=array[i]*2;
@@ -40,10 +40,11 @@ maskify: (creditCardNumber) => {
   }
   return maskify;
 },
+
+
 };
 
   export default validator;
   
-
   
 

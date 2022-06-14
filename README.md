@@ -1,24 +1,24 @@
 
 
-                       CREDIT CARD VALIDATION
+                                    CREDIT CARD VALIDATION
 
  Este proyecto consiste en una aplicación web que le permite al usuario en este 
  caso un aficionado a la lectura, realizar la comprar de libros con tarjeta de credito.
  
  Proyecto final.
 
-[imagen final del proyecto]<img src="Imagenes/proyecto1.jpg">
-[imagen final del proyecto]<img src="Imagenes/proyecto2.jpg">
-[imagen final del proyecto]<img src="Imagenes/proyecto3.jpg">
-[imagen final del proyecto]<img src="Imagenes/proyecto4.jpg">
-[imagen final del proyecto]<img src="Imagenes/proyecto5.jpg">
+![proyecto1](https://user-images.githubusercontent.com/105663863/172777835-9de6f89b-0507-4841-857f-faaded9a4d63.jpg)
+![proyecto2](https://user-images.githubusercontent.com/105663863/172777851-bcb5229f-197a-48f2-9d67-c0cde2fe8317.jpg)
+![proyecto3](https://user-images.githubusercontent.com/105663863/172777867-dab7c4ab-e3c1-4203-a0aa-72e7a4d74128.jpg)
+![proyecto4](https://user-images.githubusercontent.com/105663863/172981319-52187919-36c5-4a4b-b9cd-0bfafe095d7b.jpg)
+![proyecto5](https://user-images.githubusercontent.com/105663863/172981331-d70ac9ae-391c-4e81-a37b-f18c87a9900b.jpg)
+
 
 Investigacion UX:
 
             COMO: Aficionado a la lectura
             QUIERO: Realizar la compra del libro con tarjeta de crédito
             PARA: Ahorrar tiempo
-
 
  CRITERIOS DE ACEPTACIÓN
 
@@ -28,23 +28,26 @@ Investigacion UX:
   Cuerpo
   Contiene 2 secciones cada sección comprende de:
 
-  seccion 1: contiene la siguiente estructura.
+  Sección 1: contiene la siguiente estructura.
+
   1. La imagen del libro
   2. Precio del libro
   3. Breve descripción del libro
   4. Botón de "COMPRAR LIBRO"
 
 
-  Seccion 2: contiene el formulario de pago compuesto de:
-  1. Numero de tarjeta, 
+  Sección 2: contiene el formulario de pago compuesto de:
+
+  1. Numero de tarjeta 
   2. Nombre de usuario
   3. Fecha de vencimiento
   4. CVV
   5. Botón de "validar"
   6. Botón de "Confirmar pago"
 
+
   Ventana de aviso de confirmación de pago:
-  Comprende un mensaje avisando al usuario que el pago se ha efectuado de manera correcta y un boton para seguir comprando.
+  Comprende un mensaje avisando al usuario que el pago se ha efectuado de manera correcta.
 
   Footer
   Contiene los iconos de las redes sociales
@@ -56,8 +59,8 @@ Investigacion UX:
 
   El prototipo del proyecto se realizo en figma y estas son las imagenes:
 
-  [imagen final del proyecto]<img src="Imagenes/figma1.jpg">
-  [imagen final del proyecto]<img src="Imagenes/figma2.jpg">
+ ![figma1](https://user-images.githubusercontent.com/105663863/172774311-8d167f68-cda4-4fcc-93a7-d0b1cbbe41cf.jpg)
+ ![figma2](https://user-images.githubusercontent.com/105663863/172774340-9bfd9d37-c787-42bf-995a-722062b99318.jpg)
 
 
 

@@ -11,6 +11,7 @@
       <h1>Rosa María Cifuentes Castañeda</h1>
       <p>Lee Más.com</p>
     </header>
+    
     <section>
       <div class="caja-principal" id="div1">
 
@@ -24,7 +25,7 @@
                 Libro que combina tres disciplinas para poder sanar, armonizar tus ambientes y mejorar 
                 la salud física y emocional, y activar la motivación necesaria para alcanzar prosperidad.</p>
                 <br>
-                <a href="#div2" id="comprar">Comprar Libro</a>
+                <a href="#div2" id="comprarA" >Comprar Libro</a>
               </div>  
         </div>
       
@@ -39,7 +40,7 @@
                 guía emocional sobre cómo reﬂotar su relación afectiva si es que 
                 existe amor real en la pareja.</p>
                 <br>
-                <a href="#div2" id="comprar">Comprar Libro</a>
+                <a href="#div2"  id="comprarB">Comprar Libro</a>
             </div>  
         </div>
       
@@ -53,7 +54,7 @@
                 y a quienes puedan acceder a él con la intención de ayudarlos a vencer y a convivir 
                 con algún tipo de miedo que los aqueja.</p>
                 <br>
-                <a href="#div2" id="comprar">Comprar Libro</a>
+                <a href="#div2" id="comprarC">Comprar Libro</a>
             </div>  
         </div>
       
@@ -66,7 +67,7 @@
               <p>Es un aporte para todos aquellos que desean conocerse, comprender a sus semejantes
                 y tener claridad acerca de los potenciales e influencias que traen consigo a través del nombre.</p>
                 <br>
-                <a href="#div2" id="comprar">Comprar Libro</a>
+                <a href="#div2"  id="comprarD">Comprar Libro</a>
             </div>  
         </div>
     
@@ -88,15 +89,15 @@
           <div class="pago">PAGO CON TARJETA</div>
             <div class="input-control">
               <span>Número de tarjeta</span>
-              <input type="text" maxlength="16"  name="creditCardNumber" id="creditCardNumber"  placeholder="0000 0000 0000 0000" >
+              <input type="password"  max="16"  name="creditCardNumber" id="creditCardNumber"  placeholder="0000 0000 0000 0000" >
             </div>
             <div class ="text">
               <label for="ccValidator"  id="ccValidator"></label>    
             </div>
         
             <div class="input-control">
-              <span>Nombres y Apellidos</span>
-              <input type="text" maxlength="16" name="nombre" id="nombre" placeholder="Escribe tu nombre y Apellido">
+              <span>Nombre y Apellido</span>
+              <input type="text" maxlength="16" name="nombre" id="nombre" placeholder="Escribe tu nombre y Apellido" required>
             </div>
 
             <div class="flexbox">
@@ -123,8 +124,6 @@
               <span>Espiración Año</span>
               <select name="" id="" class="year-input">
                 <option value="year" select disable>Año</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
                 <option value="2023">2023</option>
                 <option value="2024">2024</option>
                 <option value="2025">2025</option>
@@ -133,34 +132,37 @@
                 <option value="2028">2028</option>
                 <option value="2029">2029</option>
                 <option value="2030">2030</option>
+                <option value="2021">2031</option>
+                <option value="2022">2032</option>
               </select>
             </div>
 
           <div class="input-control">
             <span>CVV</span>
-            <input type="text" maxlength="4" name="cvv" id="cvv" placeholder="000">
+            <input type="numbre" maxlength="3" name="cvv" id="cvv" placeholder="000" required>
           </div>
-            </div>
-            <div>
-              <button type="button" value="Confirmar Pago" id="button" class="enviarBtn">Validar</button>
-            </div>
+          </div>
+          <div>
+              <button type="button" value="Validar" id="button" class="enviarBtn">Validar</button>
+          </div> 
         </form>
-
-        <button id="btnModal" class="btnModal">Confirmar Pago</button> 
-          <div id="myModal" class="modalContainer">
-            <div class="modal-content">
-              <span class="close">×</span> 
-              <h2>FELICITACIONES.</h2>
-              <br>
-              <p>Tu pago ha sido realizado</p>
-              <br>
-              <p>Muchas gracias por tu compra!!!</p> 
-              <br>
-              <a href="#div1" class="btnSeguir" id="btnSeguir" >Seguir Comprando</a>
-            </div>
-          </div>
       </div>
+              <button  id="btnModal" class="btnModal">Confirmar Pago</button> 
     </section>  
+  
+     
+      <div id="myModal" class="modalContainer">
+        <div class="modal-content">
+          <span class="close">×</span> 
+          <img class="icono-check" src="Imagenes/cheque.png" alt="check">
+          <h2>FELICITACIONES.</h2>
+          <br>
+          <p>Tu pago ha sido realizado</p>
+          <br>
+          <p>Muchas gracias por tu compra!!!</p> 
+        </div>
+      </div>
+  
 
     <footer>
       <div class="footer">
