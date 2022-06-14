@@ -1,8 +1,5 @@
 
 
-
-                                    CREDIT CARD VALIDATION
-
                                                    CREDIT CARD VALIDATION
 
 
