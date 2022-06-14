@@ -1,10 +1,10 @@
 
 
-<<<<<<< HEAD
+
                                     CREDIT CARD VALIDATION
-=======
+
                                                    CREDIT CARD VALIDATION
->>>>>>> b535058d8083a16cae0d0676b0e1f7aec690510f
+
 
  Este proyecto consiste en una aplicación web que le permite al usuario en este 
  caso un aficionado a la lectura, realizar la comprar de libros con tarjeta de credito.
