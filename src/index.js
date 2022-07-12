@@ -2,6 +2,7 @@
 //Simport { styleDisabled } from 'htmlhint';
 import validator from './validator.js';
 
+// Validacion de tarjeta
 let creditCardNumber=document.getElementById("creditCardNumber");
 let ccValidator=document.getElementById("ccValidator");
 let enviarBtn=document.getElementById("button");
@@ -22,13 +23,13 @@ enviarBtn.addEventListener('click', ()=>{
         message="Tarjeta de credito no válida";
       } 
     }
-
+//Maskify número de tarjeta
  let nMaskify = validator.maskify(creditCardNumber.value);
  ccValidator.innerText = " " + nMaskify + " " +  message
 
 });
  
-
+//Boton "comprar libro" con id= div1 envia a la pagina de validación de tarjeta con id= div2
 comprarA.addEventListener("click", ()=>{
   document.getElementById("div1").style.display = "none";
   document.getElementById("div2").style.display = "block";
@@ -47,7 +48,7 @@ comprarD.addEventListener("click", ()=>{
 
 })
 
-
+//Boton Confirmar pago con id btnModal me abre una ventana modal 
 if(document.getElementById("btnModal")){
   var modal = document.getElementById("myModal");
   var btn = document.getElementById("btnModal");

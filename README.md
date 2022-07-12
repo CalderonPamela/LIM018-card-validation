@@ -1,5 +1,4 @@
 
-               
 
                                                    CREDIT CARD VALIDATION
 
@@ -63,14 +62,6 @@ Investigacion UX:
 
  ![figma1](https://user-images.githubusercontent.com/105663863/172774311-8d167f68-cda4-4fcc-93a7-d0b1cbbe41cf.jpg)
  ![figma2](https://user-images.githubusercontent.com/105663863/172774340-9bfd9d37-c787-42bf-995a-722062b99318.jpg)
-
-
-
-
-
-
-
-
 
 
 
