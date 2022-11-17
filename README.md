@@ -1,6 +1,6 @@
 
 
-                                                   CREDIT CARD VALIDATION
+                                                 :pager: CREDIT CARD VALIDATION :pager:
 
 
  Este proyecto consiste en una aplicación web que le permite al usuario en este 
@@ -29,7 +29,7 @@ Investigacion UX:
   Cuerpo
   Contiene 2 secciones cada sección comprende de:
 
-  Sección 1: contiene la siguiente estructura.
+  :pushpin: Sección 1: contiene la siguiente estructura.
 
   1. La imagen del libro
   2. Precio del libro
@@ -37,7 +37,7 @@ Investigacion UX:
   4. Botón de "COMPRAR LIBRO"
 
 
-  Sección 2: contiene el formulario de pago compuesto de:
+  :pushpin: Sección 2: contiene el formulario de pago compuesto de:
 
   1. Numero de tarjeta 
   2. Nombre de usuario
